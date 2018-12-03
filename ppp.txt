@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<body>
+<caption><h3>Code for New form elements</h3></caption>
+<table border="0">
+<tr><td>Placeholder:</td><td><form><input type="number" placeholder:</td><td><form><input type="number" placeholder="Enter numbers only" size="20"></form></td></tr>
+<tr><td>Auto Focus</td><td><form><input type="text" size="20" autofocus></form></td></tr>
+<tr><td>Range</td><td><form><input type="range" max="10"></form></td></tr>
+<tr><td>Search</td><td><form><input type="search" placeholder="search"></form></td></tr>
+<tr><td>week</td><td><form><input type="week"></form></td></tr>
+<tr><td>Month</td><td><form><input type="month"></form></td></tr>
+<tr><td>time</td><td><form><input type="time"></form></td></tr>
+<tr><td>Number</td><td><form><input type="number"></form></td></tr>
+<tr><td>Required</td><td><form><input type="text"></form></td></tr>
+<tr><td>Email<span style="color:red;">*</span></td><td><form><input type="email"></form></td></tr>
+<tr><td>Color</td><td><form><input type="color"></form></td></tr>
+<tr><td>Country</td><td><form><input type="text"></form></td></tr>
+</table>
+<audio controls>
+<source src="horse.ogg" type="audio/ogg">
+<audio><br>
+<video controls>
+<source src="movie.mp4" type="video/mp4">
+<video><br>
+<button type="submit">Submit Information</button><button type="clear">clear</button>
+<p> <center style="color:red;">All fields marked(*) are mandatory</center></p>
+</body>
+</html>
