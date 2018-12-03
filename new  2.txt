@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>User_register.html</title>
+<script src="user.js"></script>
+<body>
+<form>
+<table>
+<tr><td>UserName</td><td><input type="text" name="user" id="user" required></td><td><span id="uerror"></span></td></tr>
+<tr><td>Aadhar Card</td><td><input type="email"name="mail" id="mail" required></td><td><span id="merror"></span></td></tr>
+<tr><th colspan="5"><button onclick ="return validate()">Register</button></th></tr>
+</table>
+</form>
+</body>
+</head>
+</html>
