@@ -1,0 +1,17 @@
+.image1{
+width:183px;
+height:120px;
+background:url('sprite_2.png');
+}
+.image2{
+width:183px;
+height:120px;
+background:url('sprite_2.png');
+background-position:0 -120px;
+}
+.image3{
+width:183px;
+height:120px;
+background:url('sprite_2.png');
+background-position:0 -240px;
+}
