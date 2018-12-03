@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HTMLJS</title>
+<script src="form.js"></script>
+</head>
+<body>
+<form>
+<table>
+<caption><th colspan="2">Electricity Consumer Form</th></caption>
+<tr><td>ConsumerNo:<span style="color:red;">*</span></td><td><input type="text" maxlength="8" min="0" max="99999999" id="cno" name="cno" required/></td></tr>
+<tr><td>Consumer Name:<span style="color:red;">*</span></td><td><input type="cname" minlength="3" id="cname" name="cname" required style="text-transform:Capitalize"/></td></tr>
+<tr><td>Email Address<span style="color:red;">*</span></td><td><input type="email" id="mail" name="mail" required/></td></tr>
+<tr><td>Number<span style="color:red;">*</span></td><td><input type="number" id="nou" name="nou" required/></td></tr>
+<tr><center><td colspan="2"><button onclick="return CalculateElectricityCharges()">Calculate Electricity Charges and Display</button></td></center></tr>
+</table>
+<p style="color:red;">All Fields marked(*) are mandatory</p>
+</form>
+</body>
+</html>

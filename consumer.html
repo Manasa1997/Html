@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Consumer.html</title>
+<script src="consumer.js"></script>
+<body>
+<form>
+<table>
+<caption><th colspan="4">Electricity Consumer Form </th></caption>
+<tr><td>Consumer Number<span style="color:red;">*</span></td><td><input type="text" name="user" id="user" required></td><td><span id="uerror"></span></td></tr>
+<tr><td>Consumer Name<span style="color:red;">*</span></td><td><input type="text"name="name" id="name" required></td><td><span id="nerror"></span></td></tr>
+<tr><td>Email address<span style="color:red;">*</span></td><td><input type="email" name="mail" id="mail" required></td><td><span id="serror"></span></td></tr>
+<tr><td>Number of Units<span style="color:red;">*</span></td><td><input type="text" name="number" id="number" required ></td><td><span id="error"></span></td></tr>
+<tr><th colspan="4"><button onclick ="validate()">Calculate Electricity Charges and Apply</button></th></tr>
+</table>
+</form>
+<p style="color:red;">All fields marked(*) are mandatory</p>
+</body>
+</head>
+</html>
